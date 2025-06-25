@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "rsbuild build",
-    "dev": "export NODE_NO_WARNINGS=1 && rsbuild dev --open",
+    "dev": "export NODE_NO_WARNINGS=1 && rsbuild dev",
     "preview": "rsbuild preview"
   },
   "dependencies": {
