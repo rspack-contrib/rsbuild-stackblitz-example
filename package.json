@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "rsbuild build",
+    "build": "export NODE_NO_WARNINGS=1 && rsbuild build",
     "dev": "export NODE_NO_WARNINGS=1 && rsbuild dev",
-    "preview": "rsbuild preview"
+    "preview": "export NODE_NO_WARNINGS=1 && rsbuild preview"
   },
   "dependencies": {
     "react": "^19.1.0",
